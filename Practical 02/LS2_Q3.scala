@@ -6,8 +6,7 @@ object LS2_Q3 {
     def ot(hours: Int): Int = hours * 85;
     def income(norH: Int, otH: Int): Int = normal(norH) + ot(otH);
     def tax(income: Int): Double = income * 0.12;
-    def takeHome(norH: Int, otH: Int): Double = income(norH, otH) - tax(income(norH, otH))
-
+    def takeHome(norH: Int, otH: Int): Double = income(norH, otH) - tax(income(norH, otH));
   }
 }
  
