@@ -14,11 +14,11 @@ object LS2_Q2 {
       a += 1;
       println (-2 * ( g - k ) + c);
       var x: Int = c;
-      println (x == c);
       c += 1;
-      x = c;
+      println (x);
       c += 1;
-      println (x == c * a);
+      x = c * a
+      println (x);
       a += 1;
    }
 }
