@@ -1,4 +1,4 @@
-object LS7_Q2 {
+object LS7_Q3 {
   def main(args: Array[String]) = {
     val inputList = (List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
     val primeList = filterPrime(inputList);
