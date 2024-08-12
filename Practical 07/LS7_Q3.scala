@@ -20,5 +20,4 @@ object LS7_Q3 {
     }
     return true
   }
-
 }
