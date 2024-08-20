@@ -1,6 +1,6 @@
 import scala.io.StdIn.readInt
 
-object LS4_Q2 {
+object LS8_Q2 {
   def main(args: Array[String]) = {
     print("Input a integer number: ")
     var input = readInt()
